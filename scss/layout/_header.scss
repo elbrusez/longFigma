@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding: 0px 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigator{
+    display: flex;
+    padding: 20px 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.container .right_side{
+    display: flex;
+align-items: center;
+
+}
+.burg{
+    display: none;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:#272D37;
+    cursor: pointer;
+    
+}
+.right_side .lgo{
+    margin-right: 64px;
+}
+.ourProduct{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.chevron{
+    margin-right: 32px;
+}
+.secondButton{
+    @include button($primary-color, white, 12px 18px );
+}
+.firstButton{
+    @include button(white, $primary-color, 12px 18px );
+}
+@include for-type(tablet){
+    .navigator{
+        padding:16px 16px;
+    }
+    .container {
+        .lgo{
+            width:128px;
+            height:32px;
+        }
+        padding:16px 16px;
+        .left_side{
+        display: none;
+    }
+    .burg{
+        display: initial;
+    }
+    .menu{
+        display:none;
+    }
+    
+}
+
+}
+
+@include for-type(mobile){
+    .navigator{
+        padding:16px 16px;
+    }
+}
