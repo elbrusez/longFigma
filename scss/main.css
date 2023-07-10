@@ -160,7 +160,6 @@ a {
 #landing-page .first-container {
   display: flex;
   width: 100%;
-  padding: 0px 32px;
   flex-direction: column;
   align-items: center;
   gap: 48px;
@@ -171,7 +170,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: #5F6D7E;
+  color: #5f6d7e;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -185,7 +184,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   text-align: center;
   font-size: 52px;
   font-style: normal;
@@ -211,7 +210,7 @@ a {
 }
 #landing-page .contactUs {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -235,7 +234,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: gray-700, #272D37;
+  color: gray-700, #272d37;
   text-align: center;
   /* Headline M/Desktop/Bold */
   font-size: 32px;
@@ -248,7 +247,6 @@ a {
 }
 #landing-page .secondContainer {
   width: 100%;
-  padding: 0px 32px;
   flex-direction: column;
   align-items: center;
   gap: 48px;
@@ -257,7 +255,7 @@ a {
   background-color: #FFFFFF;
 }
 #landing-page .underHead2 {
-  color: #5F6D7E;
+  color: #5f6d7e;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -269,22 +267,9 @@ a {
 #landing-page .secondHead {
   padding: 0px 32px;
 }
-#landing-page .firstBox {
-  display: flex;
-  padding: 24px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
-  display: inline-block;
-}
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -294,7 +279,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -304,7 +289,7 @@ a {
 #landing-page .enimNec {
   display: flex;
   flex-direction: column;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +300,7 @@ a {
 #landing-page .wireles {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -329,23 +314,30 @@ a {
   align-items: center;
   justify-content: center;
 }
-#landing-page .secondBox {
+#landing-page .allBoxes .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 32px;
+}
+#landing-page .allBoxes .boxes .box {
   display: flex;
   padding: 24px 32px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
-  flex: 1 0 0;
   border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
+  border: 1px solid #eaebf0;
+  background: var(--base-white, #fff);
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
   display: inline-block;
+  background-color: red;
 }
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -355,7 +347,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -366,7 +358,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -377,7 +369,7 @@ a {
 #landing-page .synergestic {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -385,23 +377,9 @@ a {
   letter-spacing: -0.22px;
   margin-top: 24px;
 }
-#landing-page .thirdBox {
-  display: flex;
-  padding: 24px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  flex: 1 0 0;
-  border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
-  display: inline-block;
-}
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -411,7 +389,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -422,7 +400,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -433,7 +411,7 @@ a {
 #landing-page .distributed {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -441,23 +419,9 @@ a {
   letter-spacing: -0.22px;
   margin-top: 24px;
 }
-#landing-page .firstBox2 {
-  display: flex;
-  padding: 24px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  flex: 1 0 0;
-  border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
-  display: inline-block;
-}
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -467,7 +431,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -478,7 +442,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -489,7 +453,7 @@ a {
 #landing-page .seemles {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -497,23 +461,9 @@ a {
   letter-spacing: -0.22px;
   margin-top: 24px;
 }
-#landing-page .secondBox2 {
-  display: flex;
-  padding: 24px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  flex: 1 0 0;
-  border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
-  display: inline-block;
-}
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -523,7 +473,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -534,7 +484,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -545,7 +495,7 @@ a {
 #landing-page .revolutionary {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -553,23 +503,27 @@ a {
   letter-spacing: -0.22px;
   margin-top: 24px;
 }
-#landing-page .thirdBox2 {
+#landing-page .revalAllChannels {
+  background-color: #437EF7;
+  color: white;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  border: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 64px;
+}
+#landing-page .secondContainer {
   display: flex;
-  padding: 24px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  flex: 1 0 0;
-  border-radius: 5px;
-  border: 1px solid var(--neutral-600, #EAEBF0);
-  background: var(--base-white, #FFF);
-  /* Shadow/XSM */
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
-  display: inline-block;
+  align-items: center;
+  justify-content: center;
 }
 #landing-page .showMore {
   background-color: #FFFFFF;
-  color: #272D37;
+  color: #272d37;
   padding: 12px 18px;
   font-size: 15px;
   font-style: normal;
@@ -579,7 +533,7 @@ a {
   border-radius: 6px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid var(--neutral-700, #DAE0E6);
+  border: 1px solid var(--neutral-700, #dae0e6);
 }
 #landing-page .iconButtonFlex {
   display: flex;
@@ -590,7 +544,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  color: var(--gray-50, #5F6D7E);
+  color: var(--gray-50, #5f6d7e);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -601,7 +555,7 @@ a {
 #landing-page .web-enabled {
   flex-direction: column;
   align-self: stretch;
-  color: #272D37;
+  color: #272d37;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -609,24 +563,152 @@ a {
   letter-spacing: -0.22px;
   margin-top: 24px;
 }
-#landing-page .allBoxes {
+#landing-page .thirdContainer {
+  margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 150px;
 }
-#landing-page .secondBox {
-  margin-left: 32px;
-  margin-right: 32px;
+#landing-page #head3 {
+  display: flex;
+  flex-direction: column;
+  color: var(--gray-700, #272d37);
+  text-align: center;
+  /* Headline M/Desktop/Bold */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.64px;
 }
-#landing-page .secondBox2 {
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-top: 32px;
+#landing-page #under-head {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--gray-50, #5f6d7e);
+  text-align: center;
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+#landing-page .onePercent {
+  color: var(--primary-600, #437ef7);
+  /* Text S/Semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+#landing-page .demonstrateBranding {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #272d37;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.32px;
+  width: 516px;
+  margin-top: 8px;
+}
+#landing-page .textInContent {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #5f6d7e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  width: 516px;
+  margin-top: 16px;
+}
+#landing-page .salaryImage {
+  width: 100%;
+}
+#landing-page .fourthContainer {
+  background-color: #2b63d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+}
+#landing-page .leftSide2 {
+  padding: 64px 0px;
+}
+#landing-page .onePercent2 {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+#landing-page .demonstrateBranding2 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.32px;
+  width: 516px;
+  margin-top: 8px;
+}
+#landing-page .textInContent2 {
+  color: #b1ccfb;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  width: 516px;
+  margin-top: 16px;
+}
+#landing-page .fourthInner {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+#landing-page .startNow {
+  background-color: #437EF7;
+  color: white;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  border: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  margin-top: 40px;
+}
+#landing-page .content {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 140px;
 }
 @media (max-width: 1440px) {
   #landing-page .first-container {
-    padding: 0px 48px;
     width: 100%;
   }
   #landing-page .first-container .header .supercharged {
@@ -646,20 +728,34 @@ a {
   #landing-page .secondContainer {
     width: 100%;
   }
-  #landing-page .boxes {
-    row-gap: 64px;
+  #landing-page .secondContainer .box {
+    width: 311px;
   }
-  #landing-page .secondBox2 {
-    margin: 0px;
+  #landing-page .secondContainer .revalAllChannels {
+    display: none;
   }
-  #landing-page .secondBox {
-    margin: 0;
+  #landing-page .content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  #landing-page .content .rightSide {
+    margin: auto;
+  }
+  #landing-page .content .leftSide {
+    margin: auto;
+  }
+  #landing-page .fourthInner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #landing-page .fourthInner .leftSide2 {
+    margin: auto;
+  }
+  #landing-page .fourthInner .rightSide2 {
+    margin: auto;
   }
 }
 @media (max-width: 768px) {
-  #landing-page .first-container {
-    padding: 0px 16px;
-  }
   #landing-page .first-container .header .supercharged {
     width: 343px;
     height: 88px;
@@ -690,33 +786,28 @@ a {
     height: 189px;
     padding: 0px 15.52px 16.78px 16.5px;
   }
-  #landing-page .secondContainer {
-    padding: 11px 11px;
+  #landing-page .secondContainer .box {
+    width: 343px;
   }
-  #landing-page .allBoxes {
-    display: flex;
-    justify-content: center;
+  #landing-page .salaryImage {
+    width: 343px;
   }
-  #landing-page .boxes {
-    margin-left: -150pxpx;
-    padding: 0px;
+  #landing-page .leftSide .demonstrateBranding {
+    width: 343px;
   }
-  #landing-page .firstBox {
-    width: 311px;
+  #landing-page .leftSide .textInContent {
+    width: 343px;
   }
-  #landing-page .secondBox {
-    width: 311px;
+  #landing-page .content {
+    gap: 32px;
   }
-  #landing-page .thirdBox {
-    width: 311px;
+  #landing-page .iconss {
+    width: 343px;
   }
-  #landing-page .firstBox2 {
-    width: 311px;
+  #landing-page .demonstrateBranding2 {
+    width: 343px;
   }
-  #landing-page .secondBox2 {
-    width: 311px;
-  }
-  #landing-page .thirdBox2 {
-    width: 311px;
+  #landing-page .textInContent2 {
+    width: 343px;
   }
 }/*# sourceMappingURL=main.css.map */
