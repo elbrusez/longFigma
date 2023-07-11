@@ -474,11 +474,152 @@
     margin-top: 40px;
   }
   .content {
-    margin-top: 64px;
+    //margin-top: 64px;
     display: flex;
     align-items: center;
     gap: 140px;
   }
+  #blogPost {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #272d37;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+  }
+  #underBlogPost {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #5f6d7e;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+  .fifthContainer {
+    padding: 64px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fifthHead {
+    margin-bottom: 64px;
+  }
+  .cards {
+    display: flex;
+    column-gap: 32px;
+
+    .photos {
+      border-radius: 5px;
+    }
+  }
+  .articlee {
+    @include button(white, $primary-color, 0px 0px);
+  }
+  .underDate {
+  }
+  .article {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 24px 32px;
+  }
+  .date {
+    color: #5f6d7e;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+  }
+  .organizeDigital {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #272d37;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.22px;
+    width: 320px;
+  }
+  .leverageText {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #5f6d7e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    width: 320px;
+  }
+  .learnMore {
+    @include button(white, $primary-color, 0px 0px);
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+  }
+  .customerSays {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--gray-700, #272d37);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+  }
+  .sixthPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .organically {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--gray-50, #5f6d7e);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    width: 100%;
+  }
+  .repurpose {
+    align-self: stretch;
+    color: var(--gray-700, #272d37);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+  .avatarFlex {
+    display: flex;
+    align-items: center;
+    column-gap: 116px;
+    padding: 64px 0px;
+  }
+  .credit {
+    display: flex;
+    justify-content: center;
+  }
+
   @include for-type(tablet) {
     .first-container {
       width: 100%;
@@ -529,6 +670,49 @@
       .rightSide2 {
         margin: auto;
       }
+    }
+    .fifthContainer .cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0px 32px;
+    }
+
+    .leverageText {
+      width: 100%;
+    }
+    .photos {
+      width: 336px;
+    }
+    .underDate {
+      width: 336px;
+    }
+    .fifthHead {
+      width: 704px;
+      margin: auto;
+    }
+
+    .sixthPage .sixthHead {
+    }
+    .organically {
+      display: flex;
+    }
+    .avatars {
+      width: 209px;
+    }
+    .avatarFlex {
+      display: flex;
+      justify-content: center;
+      width: 704px;
+      margin: auto;
+      .imgg {
+        width: 180px;
+      }
+    }
+    .cards {
+      row-gap: 32px;
+      display: flex;
+      justify-content: center;
     }
   }
   @include for-type(mobile) {
@@ -593,6 +777,26 @@
     }
     .textInContent2 {
       width: 343px;
+    }
+    .photos {
+      width: 343px;
+    }
+    .underDate {
+      width: 343px;
+    }
+    .fifthHead {
+      width: 343px;
+      margin: auto;
+    }
+    .avatarFlex {
+      display: flex;
+      flex-wrap: wrap;
+      width: 343px;
+      row-gap: 32px;
+    }
+    .sixthHead {
+      width: 343px;
+      margin: auto;
     }
   }
 }
